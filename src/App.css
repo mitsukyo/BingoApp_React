@@ -1,0 +1,119 @@
+.bingo-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card-details {
+  margin-top: 30px;
+}
+
+.game-code {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.card-data {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.bingo-letters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.bingo-letters span {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.card-numbers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card-numbers button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-numbers button:hover {
+  background-color: #0056b3;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button-container button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+}
+
+.win-status {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Add more styles as needed */
+.card-data {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.player-card {
+  border: 2px solid #007bff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.player-card h2 {
+  color: #007bff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.player-card pre {
+  white-space: pre-wrap;
+}
+
+.card-numbers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+} 
